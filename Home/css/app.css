@@ -1,0 +1,295 @@
+body {
+	max-width: 1920px;
+	max-height: auto;
+	left: 0;
+	margin-left: 0;
+	right: 0;
+	margin-right: 0;
+	top: 0;
+	margin-top: 0;
+}
+
+.clearfix{
+	overflow: block;
+}
+
+header {
+	max-width: auto;
+	max-height: 1024px;
+}
+
+header img {
+	max-width: auto;
+	max-height: auto;
+}
+
+main {
+	max-width: 100%;
+	max-height: auto;
+}
+
+#about{
+	max-width: 100%;
+	max-height: auto;
+	display: block;
+	overflow: auto;
+}
+
+.left-div{
+	max-width: 50%;
+	max-height: auto;
+	padding: 5%;
+	float: left;
+	display: block;
+}
+
+.right-div{
+	max-width: 50%;
+	max-height: auto;
+	padding: 5%;
+	float: right;
+	display: block;
+}
+
+#ferramentas {
+	max-width: 100%;
+	max-height: auto;
+	display: block;
+	overflow: auto;
+
+}
+
+#ul-1{
+	list-style: none;
+	display: inline-block;
+	padding: 20%;
+}
+
+#ul-1 li{
+	display: inline-block;
+	align-items: center;
+}
+
+	
+	/*portfolio*/
+	
+	.main-principal {
+		max-width: 80%;
+		margin-left: 14%;
+		margin-right: 14%;
+		padding: 2%;
+	}
+
+	.main-principal ul{
+		list-style: none;
+		align-items: center;
+		text-align: center;
+	}
+
+	#mainwrapper {
+	  height: auto;
+	  margin: 80px auto 0 auto;
+	  text-align: center;
+	  width: 660px;
+	}
+
+	#mainwrapper .box {
+		cursor: pointer;
+		height: 205px;
+		float: left;
+		margin: 5px;
+		position: relative;
+		overflow: hidden;
+		width: 200px;
+		box-shadow: 1px 1px 1px 1px #ccc;
+	}
+	 
+	#mainwrapper .box img {
+		position: absolute;
+		left: 0;
+		transition: all 300ms ease-out;
+	}
+
+	#mainwrapper .box .caption {
+		background-color: rgba(0,0,0,0.8);
+		position: absolute;
+		color: #fff;
+		z-index: 100;
+		height: 20%;
+		transition: all 300ms ease-out;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+
+	#mainwrapper .box .simple-caption {
+		height: 30px;
+		width: 200px;
+		display: block;
+		bottom: -30px;
+		line-height: 25pt;
+		text-align: center;
+	}
+
+	#mainwrapper .box:hover .simple-caption {
+		transform: translateY(-10%);
+		height: 25%;
+		width: 100%;
+		left: 0;
+		right: 0;
+		bottom: 0;
+	}
+	
+	.simple-caption a p{
+		text-align: center;
+		color:#fff;
+		margin-top: 2%;
+	}
+	
+	/*contactos*/
+	.main-principal input, textarea {
+		margin: 0 !important;
+		margin-bottom: 15px !important;
+		display: inline-block;
+	}
+	
+	.button3 {
+		min-width: 40px;
+		max-width: auto;
+		min-height: 40px;
+		max-height: 100px;
+		background-color: #5FC2AA;
+		margin-bottom: 15%; 
+		padding: 2% 7%;
+		color: white;
+		border-radius: 20% auto solid;
+		border-style: none;
+	}
+
+
+	.buttonenviar {
+		min-width: 40px;
+		max-width: 100px;
+		min-height: 40px;
+		max-height: 100px;
+		background-color: #5fc2aa;
+		margin: 2%; 
+		padding: 1%;
+		color: white;
+		border-radius: 10% auto solid;
+		border-style: none;
+		float: none;
+	}
+
+	.form-label {
+		font-family:'Helvetica', sans-serif;
+		font-size: 14px;
+		color: grey;
+		opacity: 1;
+	}
+
+	.text {
+		background-color: rgba(0,0,0,0.2);
+		border-style: none;
+		margin: 1%;
+	}
+
+	/*parceiros*/
+	.menu-parceiros {
+		max-width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+		padding: 2%;
+	}
+
+	.menu-parceiros ul li {
+		display: inline-block;
+	}
+
+	#imagens-parceiros-cpd, #imagens-parceiros-ccp, #imagens-parceiros-UMa, #imagens-parceiros-AAUMa, #imagens-parceiros{
+		max-width: 50%;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
+
+.img-responsive-contactos{
+    padding-bottom:0%;
+}
+
+
+.footer {
+    color: white;
+    background-color: #366a6c;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.footer .row p, .footer .row a, .footer .row span {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+}
+.footer .contact {
+    text-align: center;
+    padding-left:275px;
+}
+.footer ul {
+    position: absolute;
+    padding: 0;
+    margin: -50;
+    padding-left: 15%;
+}
+.footer ul li {
+    list-style-type: none;
+}
+
+.footer i {
+    font-style: normal;
+}
+.footer .face-and-insta {
+    text-align: right;
+    padding-left: 575px;
+}
+
+
+.right-div2{
+	max-width: 50%;
+	max-height: auto;
+	padding: 5%;
+	float: right;
+	display: inline-block;
+}
+
+	/*slide de imagens*/
+	.w3-content w3-section {
+		width: 80%;
+		height: 15%;
+		margin-left: 10%;
+		margin-right: 10%;
+		display: block;
+		overflow: auto;
+		padding: 15%;
+	}
+
+
+/*	Scroll to top 	*/
+.scrollup {
+    width: 32px;
+    height: 32px;
+    position: fixed;
+    bottom: 50px;
+    right: 10px;
+    display: none;
+    text-indent: -9999px;
+    background: url('../img/icon-up.png') no-repeat;
+}
+
+#b-saiba{
+	color: white;
+	background-color: #366a6c;
+	border-radius: 10%;
+	padding: 1%;
+}
